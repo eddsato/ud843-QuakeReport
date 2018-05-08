@@ -32,4 +32,11 @@
         android:gravity="left"
         tools:text="Feb 20, 2016"/>
 
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        tools:text="3:00 PM"/>
+
 </LinearLayout>
