@@ -5,21 +5,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
     android:layout_width="match_parent"
-    android:layout_height="48dp"
+    android:layout_height="match_parent"
     android:padding="16dp">
 
     <TextView
         android:id="@+id/tv_magnitude"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="left"
         tools:text="8.9"/>
 
     <TextView
+        android:id="@+id/tv_offset"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        tools:text="74km NW of"/>
+
+    <TextView
         android:id="@+id/tv_location"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="left"
         tools:text="San Francisco"/>
@@ -27,7 +35,7 @@
     <TextView
         android:id="@+id/tv_date"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:gravity="left"
         tools:text="Feb 20, 2016"/>
@@ -35,7 +43,7 @@
     <TextView
         android:id="@+id/tv_time"
         android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         tools:text="3:00 PM"/>
 
